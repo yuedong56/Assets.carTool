@@ -20,7 +20,7 @@
 		7008744B1CE6F709002DC38E /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		7008744C1CE6F709002DC38E /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		7031E6D81D08035C009A6500 /* cartool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cartool; sourceTree = "<group>"; };
-		705BE8621CDA129F00F8B0C8 /* MacAAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAAA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		705BE8621CDA129F00F8B0C8 /* CarTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705BE8651CDA129F00F8B0C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		705BE8661CDA129F00F8B0C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		705BE8691CDA129F00F8B0C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		705BE8631CDA129F00F8B0C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				705BE8621CDA129F00F8B0C8 /* MacAAA.app */,
+				705BE8621CDA129F00F8B0C8 /* CarTool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 			);
 			name = MacAAA;
 			productName = MacAAA;
-			productReference = 705BE8621CDA129F00F8B0C8 /* MacAAA.app */;
+			productReference = 705BE8621CDA129F00F8B0C8 /* CarTool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 				INFOPLIST_FILE = MacAAA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LYue.MacAAA;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CarTool;
 			};
 			name = Debug;
 		};
@@ -276,7 +276,7 @@
 				INFOPLIST_FILE = MacAAA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LYue.MacAAA;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CarTool;
 			};
 			name = Release;
 		};
