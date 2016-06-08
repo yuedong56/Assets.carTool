@@ -54,8 +54,15 @@
     NSLog(@"result ---- %@", result);
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.25 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self runCmdPath:@"/bin/cartool" arguments:@[self.label.stringValue, path]];
+        [self runCmdPath:[self carToolPtah] arguments:@[self.label.stringValue, path]];
     });
+}
+
+- (NSString *)carToolPtah
+{
+    NSBundle *mainBundle = [NSBundle mainBundle];
+    NSString *path = [NSString stringWithFormat: @"%@/Contents/Resources/cartool", mainBundle.bundlePath];
+    return path;
 }
 
 - (NSString *)runCmdPath:(NSString *)path arguments:(NSArray *)args
