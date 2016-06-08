@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "705BE8611CDA129F00F8B0C8"
-               BuildableName = "MacAAA.app"
+               BuildableName = "CarTool.app"
                BlueprintName = "MacAAA"
                ReferencedContainer = "container:MacAAA.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "705BE8611CDA129F00F8B0C8"
-            BuildableName = "MacAAA.app"
+            BuildableName = "CarTool.app"
             BlueprintName = "MacAAA"
             ReferencedContainer = "container:MacAAA.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "705BE8611CDA129F00F8B0C8"
-            BuildableName = "MacAAA.app"
+            BuildableName = "CarTool.app"
             BlueprintName = "MacAAA"
             ReferencedContainer = "container:MacAAA.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "705BE8611CDA129F00F8B0C8"
-            BuildableName = "MacAAA.app"
+            BuildableName = "CarTool.app"
             BlueprintName = "MacAAA"
             ReferencedContainer = "container:MacAAA.xcodeproj">
          </BuildableReference>

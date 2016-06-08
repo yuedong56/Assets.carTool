@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7008744D1CE6F709002DC38E /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7008744C1CE6F709002DC38E /* CustomView.m */; };
 		7031E6D91D08035C009A6500 /* cartool in Resources */ = {isa = PBXBuildFile; fileRef = 7031E6D81D08035C009A6500 /* cartool */; };
+		7031E6DB1D081169009A6500 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7031E6DA1D081169009A6500 /* Untitled.gif */; };
 		705BE8671CDA129F00F8B0C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 705BE8661CDA129F00F8B0C8 /* AppDelegate.m */; };
 		705BE86A1CDA129F00F8B0C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 705BE8691CDA129F00F8B0C8 /* main.m */; };
 		705BE86D1CDA129F00F8B0C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705BE86C1CDA129F00F8B0C8 /* ViewController.m */; };
@@ -20,6 +21,7 @@
 		7008744B1CE6F709002DC38E /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		7008744C1CE6F709002DC38E /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		7031E6D81D08035C009A6500 /* cartool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cartool; sourceTree = "<group>"; };
+		7031E6DA1D081169009A6500 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		705BE8621CDA129F00F8B0C8 /* CarTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705BE8651CDA129F00F8B0C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		705BE8661CDA129F00F8B0C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				7008744B1CE6F709002DC38E /* CustomView.h */,
 				7008744C1CE6F709002DC38E /* CustomView.m */,
 				7031E6D81D08035C009A6500 /* cartool */,
+				7031E6DA1D081169009A6500 /* Untitled.gif */,
 				705BE86E1CDA12A000F8B0C8 /* Assets.xcassets */,
 				705BE8701CDA12A000F8B0C8 /* Main.storyboard */,
 				705BE8731CDA12A000F8B0C8 /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7031E6D91D08035C009A6500 /* cartool in Resources */,
+				7031E6DB1D081169009A6500 /* Untitled.gif in Resources */,
 				705BE86F1CDA12A000F8B0C8 /* Assets.xcassets in Resources */,
 				705BE8721CDA12A000F8B0C8 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +267,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MacAAA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = LYue.MacAAA;
 				PRODUCT_NAME = CarTool;
 			};
@@ -275,6 +280,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MacAAA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = LYue.MacAAA;
 				PRODUCT_NAME = CarTool;
 			};
